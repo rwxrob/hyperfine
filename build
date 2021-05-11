@@ -1,0 +1,3 @@
+#!/bin/sh
+docker build -t hyperfine -t rwxrob/hyperfine .
+docker push rwxrob/hyperfine
